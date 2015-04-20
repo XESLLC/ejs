@@ -24,8 +24,8 @@ for (var i = 1; i <= 100; i++) {
 
 // chess board
 
-var size = 8
-var chess_board = ""
+var size = 8;
+var chess_board = "";
 for (var i = 0; i < size/2; i++) {
   for (var j = 0; j < (size/2 ); j++) {
     chess_board += "# ";
@@ -34,6 +34,6 @@ for (var i = 0; i < size/2; i++) {
   for (var k = 0; k < size/2; k++) {
     chess_board += " #";
   };
-  chess_board += "\n"
+  chess_board += "\n";
 };
 console.log(chess_board.substring(0, chess_board.length - 1))
